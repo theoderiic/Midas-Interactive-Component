@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deneme</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="content-wrapper">
+
+        <H1>Midas’la Herkes Birer Yatırımcı!</H1>
+        <p>Esnaftan bankacıya, öğrenicden mühendise herkes Midas'ta! Çünkü her yatırımcıya tutardan bağımsız, eşit yatırım imkanları sunuyoruz.</p>
+        <video class="video" autoplay muted loop playsinline webkit-playsinline>
+         <source src="https://www.getmidas.com/wp-content/uploads/2022/01/Midas-Web-Video_2.mp4" type="video/mp4">
+        </video>
+        <div class="midas-wrapper">
+            <h2 class="heading2">Sevdiğin şirketi seç, yatırım potansiyelini hesapla.  </h2>
+            <div class="companies-wrapper">
+            
+                <div class="companies-wrapper">
+                    <input type="radio" name="buttonCompany" value="tesla" id="Cone" checked><label for="Cone"><img src="https://static.getmidas.com/stocks/tsla.png" alt="Tesla" width="48" data-lazy-src="https://static.getmidas.com/stocks/tsla.png" data-ll-status="entered" class="entered lazyloaded exited" style=""></label>
+                    <input type="radio" name="buttonCompany" value="apple" id="Ctwo"><label for="Ctwo"><img src="https://static.getmidas.com/stocks/aapl.png" alt="Apple" width="48" data-lazy-src="https://static.getmidas.com/stocks/aapl.png" data-ll-status="entered" class="entered lazyloaded exited" style=""></label>
+                    <input type="radio" name="buttonCompany" value="google" id="Cthree"><label for="Cthree"><img src="https://static.getmidas.com/stocks/googl.png" alt="Alphabet Class A" width="48" data-lazy-src="https://static.getmidas.com/stocks/googl.png" data-ll-status="entered" class="entered lazyloaded exited"></label>
+                </div>  
+            </div>
+        
+            <div class="companies-wrapper">
+                <input type="radio" name="buttonGroup" value="one" id="one"checked><label for="one" >1 Yıl</label>
+                <input type="radio" name="buttonGroup" value="two" id="two" ><label for="two">2 Yıl</label>
+                <input type="radio" name="buttonGroup" value="three" id="three"><label for="three">3 Yıl</label>
+            </div>
+
+            <div class="yatirim-text"> <span id="dolar-amount">xxx</span> Dolar yatirdiginda</div>
+            <div class="slider-container">
+                <span class="bar"><span class="fill"></span></span>
+                <input class="slider" type="range" min="1" max="100" value="50" class="slider" id="myRange">
+              </div>
+
+            <div class="text-fund"><span id="fund">xxx</span> dolarin olacakti.</div>
+
+
+        </div>
+    </div>
+</body>
+</html>
